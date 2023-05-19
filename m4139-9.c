@@ -2,16 +2,16 @@
 
 main()
  {
-   int n,i=1,factorial;
+   int n,i,factorial=1;
     
     printf("enter a number");
     scanf("%d",&n);
 
-    while(i<=n)
+    while(n>=1)
     {
-        factorial*=i;
-        i++;
+        factorial=factorial*n;
+        n--;
     }
     printf("The Factorial of  is : %d",factorial);
-
+return 0;
 }
